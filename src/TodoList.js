@@ -1,15 +1,15 @@
-import React, { Component, fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 
 class TodoList extends Component{
     render() {
         return (
-            <fragment>
+            <Fragment>
                 <input />
                 <ul>
                     <li>learn React</li>
                     <li>learn Component</li>
                 </ul>
-            </fragment>
+            </Fragment>
         )
     }
 }
